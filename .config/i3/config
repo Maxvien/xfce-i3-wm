@@ -3,7 +3,7 @@ set $mod Mod4
 floating_modifier $mod
 
 # Settings => Startup
-exec --no-startup-id feh --bg-fill --randomize ~./Pictures/Wallpapers/*
+exec --no-startup-id feh --bg-fill --randomize ~/Pictures/Wallpapers/*
 exec --no-startup-id picom --config /dev/null --backend glx --vsync
 
 
